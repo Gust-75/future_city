@@ -1,3 +1,121 @@
-header{
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    color: #1b3d2f;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #0a6834;
+    color: white;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.titulos h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.titulos h2 {
+    margin: 0;
+    margin-top: 4px;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.login-btn {
+    padding: 10px 18px;
+    background: white;
+    color: #0a6834;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.frase {
     text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    background: #e6f4ec;
+    color: #0a6834;
+}
+
+main {
+    padding: 20px;
+}
+
+.ranking-container {
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.rank-item {
+    margin-bottom: 28px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ccc;
+}
+
+.rank-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rank-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0a6834;
+}
+
+.rank-icon {
+    font-size: 28px;
+}
+
+.rank-bar {
+    width: 100%;
+    height: 22px;
+    background: #dfece6;
+    border-radius: 12px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.bar-fill {
+    height: 22px;
+    width: 0;
+    border-radius: 12px;
+    transition: width 0.8s ease;
+}
+
+.bar-x { background: #d4af37; }
+.bar-y { background: #c0c0c0; }
+.bar-z { background: #cd7f32; }
+
+.points {
+    font-size: 17px;
+    font-weight: bold;
+    color: #0a6834;
+}
+
+.postagens {
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.postagens h3 {
+    color: #0a6834;
 }
