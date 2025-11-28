@@ -17,6 +17,8 @@ header {
 .logo {
     font-size: 22px;
     font-weight: bold;
+    max-width: 64px;
+    max-height: 64px;
 }
 
 .titulos h1 {

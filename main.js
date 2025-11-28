@@ -1,4 +1,4 @@
-const MAX_WIDTH = 500;
+const MAX_WIDTH = 600;
 let usuarios = [
     { nome: "Claudia", pontos: 0 },
     { nome: "Fátima", pontos: 0 },
@@ -29,5 +29,5 @@ setInterval(() => {
     usuarios[1].pontos += Math.floor(Math.random() * 100);
     usuarios[2].pontos += Math.floor(Math.random() * 100);
     atualizarRanking();
-}, 5000);
+}, 1000);
 atualizarRanking();
